@@ -1,3 +1,7 @@
+# SOS-ELECTRON (second generation display software for LED wall)
+
+More info here to come.
+
 # electron-react-boilerplate
 
 [![NPM version][npm-image]][npm-url]
