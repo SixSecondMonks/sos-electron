@@ -33,7 +33,6 @@ config.module.loaders.push({
   ]
 });
 
-
 config.plugins.push(
   new webpack.HotModuleReplacementPlugin(),
   new webpack.NoErrorsPlugin(),
@@ -46,5 +45,16 @@ config.plugins.push(
 );
 
 config.target = webpackTargetElectronRenderer(config);
+
+config.kinect = {
+  body: true,
+  color: false,
+  depth: false,
+  infrared: false,
+  longExposureInfrared: false,
+  dummy: true,
+  dummyFiles: ['./dummy-data/skeletal-output-01.json',
+               './dummy-data/skeletal-output-02.json']
+};
 
 module.exports = config;
