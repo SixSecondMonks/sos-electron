@@ -11,7 +11,7 @@ export default class Home extends Component {
           <h2>Home</h2>
           <ul>
             <li><Link to="/game">to Game</Link></li>
-            {/* <li><Link to="/particle-storm">to ParticleStorm</Link></li> */}
+            <li><Link to="/particle-storm">to ParticleStorm</Link></li>
           </ul>
         </div>
       </div>

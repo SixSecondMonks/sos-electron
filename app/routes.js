@@ -11,6 +11,6 @@ export default (
     <IndexRoute component={HomePage} />
     <Route path="/home" component={HomePage} />
     <Route path="/game" component={GamePage} />
-    {/* <Route path="/particle-storm" component={ParticleStormPage} /> */}
+    <Route path="/particle-storm" component={ParticleStormPage} />
   </Route>
 );
