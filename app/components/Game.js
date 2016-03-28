@@ -7,7 +7,7 @@ class Game extends Phaser.Game {
   }
 }
 
-export default class Home extends Component {
+export default class Game extends Component {
   constructor(props) {
     super(props);
     this.game = new Game(800, 600, Phaser.AUTO, 'game-div', {create: this.phaserCreate, render: this.phaserRender, update: this.phaserUpdate});
